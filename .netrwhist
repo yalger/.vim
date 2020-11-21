@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/adil/code/Algorithm-and-Datastructure/Described-In-C/Chapter1/ex1.3'
+let g:netrw_dirhist_6='/home/adil/blusyin.github.io/blog/source/_posts'
+let g:netrw_dirhist_5='/home/adil'
+let g:netrw_dirhist_4='/home/adil/code'
+let g:netrw_dirhist_3='/home/adil'
+let g:netrw_dirhist_2='/home/adil/.vim'
+let g:netrw_dirhist_1='/etc/modprobe.d'
