@@ -29,6 +29,7 @@ autocmd FileType sh setlocal shiftwidth=2 tabstop=2 softtabstop=2
 colorscheme onehalfdark
 let g:airline_theme='onehalflight'
 
+inoremap {<CR> {<CR>}<ESC>ko
 inoremap jk <ESC>
 let mapleader=" "
 
