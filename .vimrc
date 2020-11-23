@@ -21,7 +21,7 @@ set background=dark     " use colors that suit a dark background
 set foldmethod=manual   " code fold manually
 set backspace=indent,eol,start  " allow backspacing over indention,line breaks and insertion start
 set history=1000        " set the undo limit
-set splitbelow          " set the split window at bottom
+" set splitbelow          " set the split window at bottom
 set termwinsize=10*0    " set the height of the term
 
 autocmd FileType c setlocal 
