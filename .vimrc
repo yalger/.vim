@@ -35,6 +35,9 @@ inoremap {<CR> {<CR>}<ESC>ko
 inoremap jk <ESC>
 let mapleader=" "
 
+" NerdTree config
+autocmd vimenter * NERDTree
+
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
