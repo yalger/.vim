@@ -3,7 +3,7 @@
 	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule "plugged/vim-surround"]
 	path = plugged/vim-surround
-	url = https://github.com/tpope/vim-surroundl
+	url = https://github.com/tpope/vim-surround
 [submodule "plugged/nerdtree"]
 	path = plugged/nerdtree
 	url = https://github.com/preservim/nerdtree
