@@ -36,7 +36,7 @@ inoremap jk <ESC>
 let mapleader=" "
 
 " NerdTree config
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
