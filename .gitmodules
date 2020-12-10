@@ -7,3 +7,6 @@
 [submodule "plugged/nerdtree"]
 	path = plugged/nerdtree
 	url = https://github.com/preservim/nerdtree
+[submodule "plugged/xml.vim"]
+	path = plugged/xml.vim
+	url = https://github.com/othree/xml.vim
