@@ -26,6 +26,7 @@ set termwinsize=10*0    " set the height of the term
 
 autocmd FileType c setlocal 
 autocmd FileType sh setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType xml setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 " colorscheme molokai
 colorscheme onehalfdark
