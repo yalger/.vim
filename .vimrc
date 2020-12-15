@@ -2,11 +2,11 @@ set number              " show line number
 set relativenumber      " show line number on the current line and relative numbers on all other lines.
 filetype plugin on      " syntax highlighting
 syntax on               " enable syntax highlighting
-set shiftwidth=4        " set shift indent width
-set tabstop=4           " set tab size
+set shiftwidth=2        " set shift indent width
+set tabstop=2           " set tab size
 set autoindent          " enable automatic indentation
 set expandtab           " replace tabs with white spaces
-set softtabstop=4       " remove multiple spaces on single backspace
+set softtabstop=2       " remove multiple spaces on single backspace
 set cursorline          " highlight the current line
 set showcmd             " display incomplete commands
 filetype indent on      " load indent file for specific file types
@@ -24,9 +24,9 @@ set history=1000        " set the undo limit
 " set splitbelow          " set the split window at bottom
 set termwinsize=10*0    " set the height of the term
 
-autocmd FileType c setlocal 
-autocmd FileType sh setlocal shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType xml setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType c setlocal
+autocmd FileType sh setlocal
+autocmd FileType xml setlocal
 
 " colorscheme molokai
 colorscheme onehalfdark
