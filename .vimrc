@@ -29,7 +29,7 @@ autocmd FileType sh setlocal
 autocmd FileType xml setlocal
 
 " colorscheme molokai
-colorscheme onehalfdark
+colorscheme jummidark
 " let g:airline_theme='onehalflight'
 
 inoremap {<CR> {<CR>}<ESC>ko
