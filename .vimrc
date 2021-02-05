@@ -36,6 +36,9 @@ inoremap {<CR> {<CR>}<ESC>ko
 inoremap jk <ESC>
 let mapleader=" "
 
+" YouCompleteMe
+let g:ycm_extra_conf_globlist = ['~/Code/C-C++/TLPI/*']
+
 " NerdTree config
 " autocmd vimenter * NERDTree
 
