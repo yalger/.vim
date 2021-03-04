@@ -13,8 +13,7 @@ filetype indent on      " load indent file for specific file types
 set hlsearch            " enable search highlighting
 set smartcase           " automatically switch search to case-sensitive when search query contains an uppercase letter
 set encoding=utf-8      " set encoding to utf-8
-" set fileencodings=utf-8,gbk,gb2312,gb18030
-" set fencs=utf-8,gbk,gb2312,gb18030
+set fileencodings=ucs-bom,utf-8,gbk
 set scrolloff=5         " set the number of screen lines to keep above and below the cursor
 set wildmenu            " display command line's tab complete options as a menu
 set background=dark     " use colors that suit a dark background
