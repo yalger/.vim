@@ -41,6 +41,13 @@ let g:ycm_extra_conf_globlist = ['~/Code/C-C++/TLPI/*']
 " NerdTree config
 " autocmd vimenter * NERDTree
 
+" vim-easy-align
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
