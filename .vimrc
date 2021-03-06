@@ -26,7 +26,7 @@ set termwinsize=10*0    " set the height of the term
 autocmd FileType c setlocal
 autocmd FileType sh setlocal
 autocmd FileType xml setlocal
-autocmd FileType asm setlocal tabstop=8 softtabstop=8
+autocmd FileType asm setlocal tabstop=8 expandtab softtabstop=8
 
 " colorscheme jummidark
 colorscheme onehalflight
