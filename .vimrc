@@ -53,6 +53,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 Plug 'othree/xml.vim'
+Plug 'junegunn/vim-easy-align'
 
 " Any valid git URL is allowed
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'

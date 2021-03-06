@@ -10,3 +10,6 @@
 [submodule "plugged/xml.vim"]
 	path = plugged/xml.vim
 	url = https://github.com/othree/xml.vim
+[submodule "plugged/vim-easy-align"]
+	path = plugged/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align
