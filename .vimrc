@@ -29,13 +29,13 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
-autocmd FileType c setlocal
+autocmd FileType c setlocal tabstop=4 expandtab softtabstop=4
 autocmd FileType sh setlocal
 autocmd FileType xml setlocal
 autocmd FileType asm setlocal tabstop=8 expandtab softtabstop=8
 
-colorscheme jummidark
-" colorscheme onehalflight
+" colorscheme jummidark
+colorscheme onehalflight
 
 inoremap {<CR> {<CR>}<ESC>ko
 inoremap jk <ESC>
