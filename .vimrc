@@ -29,10 +29,10 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
-autocmd FileType c setlocal tabstop=4 expandtab softtabstop=4 autoindent
+autocmd FileType c setlocal shiftwidth=4 tabstop=4 expandtab softtabstop=4 autoindent
 autocmd FileType sh setlocal
 autocmd FileType xml setlocal
-autocmd FileType asm setlocal tabstop=8 expandtab softtabstop=8
+autocmd FileType asm setlocal shiftwidth=8 tabstop=8 expandtab softtabstop=8
 
 " colorscheme jummidark
 colorscheme onehalflight
