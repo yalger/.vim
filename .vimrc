@@ -34,8 +34,8 @@ autocmd FileType sh setlocal
 autocmd FileType xml setlocal
 autocmd FileType asm setlocal shiftwidth=8 tabstop=8 expandtab softtabstop=8
 
-" colorscheme jummidark
-colorscheme onehalflight
+colorscheme jummidark
+" colorscheme onehalflight
 
 inoremap {<CR> {<CR>}<ESC>ko
 inoremap jk <ESC>
