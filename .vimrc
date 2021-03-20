@@ -22,24 +22,21 @@ set backspace=indent,eol,start  " allow backspacing over indention,line breaks a
 set history=1000        " set the undo limit
 " set splitbelow          " set the split window at bottom
 set termwinsize=10*0    " set the height of the term
-hi clear CursorLine     " clear current cursor line underline
+highlight clear CursorLine  " clear current cursor line underline
+highlight clear CursorLineNr " clear current cursor line underline 
 
-" Uncomment the following to have Vim jump to the last position when
-" reopening a file
+" Jump to the last position when reopening a file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
+
+let mapleader=" "
+inoremap jk <ESC>
 
 autocmd FileType c      setlocal shiftwidth=4 tabstop=4 expandtab softtabstop=4 autoindent
 autocmd FileType sh     setlocal
 autocmd FileType xml    setlocal
 autocmd FileType asm    setlocal shiftwidth=8 tabstop=8 expandtab softtabstop=8
-
-" colorscheme jummidark
-" colorscheme onehalflight
-
-let mapleader=" "
-inoremap jk <ESC>
 
 " YouCompleteMe
 let g:ycm_extra_conf_globlist = ['~/Code/C-C++/TLPI/*', '~/Code/KernelModules/*']
