@@ -29,30 +29,22 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
-autocmd FileType c setlocal shiftwidth=4 tabstop=4 expandtab softtabstop=4 autoindent
-autocmd FileType sh setlocal
-autocmd FileType xml setlocal
-autocmd FileType asm setlocal shiftwidth=8 tabstop=8 expandtab softtabstop=8
+autocmd FileType c      setlocal shiftwidth=4 tabstop=4 expandtab softtabstop=4 autoindent
+autocmd FileType sh     setlocal
+autocmd FileType xml    setlocal
+autocmd FileType asm    setlocal shiftwidth=8 tabstop=8 expandtab softtabstop=8
 
 colorscheme jummidark
 " colorscheme onehalflight
 
-inoremap {<CR> {<CR>}<ESC>ko
-inoremap jk <ESC>
 let mapleader=" "
+inoremap jk <ESC>
 
 " YouCompleteMe
 let g:ycm_extra_conf_globlist = ['~/Code/C-C++/TLPI/*', '~/Code/KernelModules/*']
 
 " NerdTree config
 " autocmd vimenter * NERDTree
-
-" vim-easy-align
-" Start interactive EasyAlign in visual mode (e.g. vipga)
-xmap ga <Plug>(EasyAlign)
-
-" Start interactive EasyAlign for a motion/text object (e.g. gaip)
-nmap ga <Plug>(EasyAlign)
 
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
@@ -66,7 +58,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 Plug 'othree/xml.vim'
-Plug 'junegunn/vim-easy-align'
+Plug 'chun-yang/auto-pairs'
 
 " Any valid git URL is allowed
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'

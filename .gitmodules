@@ -13,3 +13,6 @@
 [submodule "plugged/vim-easy-align"]
 	path = plugged/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align
+[submodule "plugged/auto-pairs"]
+	path = plugged/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
