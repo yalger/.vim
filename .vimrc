@@ -40,6 +40,7 @@ autocmd FileType asm    setlocal shiftwidth=8 tabstop=8 expandtab softtabstop=8
 
 " YouCompleteMe
 let g:ycm_extra_conf_globlist = ['~/Code/C-C++/TLPI/*', '~/Code/KernelModules/*']
+" let g:loaded_youcompleteme = 1  " disable youcompleteme loading on startup
 
 " NerdTree config
 " autocmd vimenter * NERDTree
