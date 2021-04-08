@@ -3,10 +3,10 @@ set relativenumber      " show line number on the current line and relative numb
 filetype plugin on      " syntax highlighting
 syntax on               " enable syntax highlighting
 set autoindent          " enable automatic indentation
-set shiftwidth=2        " set shift indent width
-set tabstop=2           " set tab size
+set shiftwidth=8        " set shift indent width
+set tabstop=8           " set tab size
 set expandtab           " replace tabs with white spaces
-set softtabstop=2       " remove multiple spaces on single backspace
+set softtabstop=8       " remove multiple spaces on single backspace
 set cursorline          " highlight the current line
 set showcmd             " display incomplete commands
 filetype indent on      " load indent file for specific file types
@@ -34,9 +34,10 @@ let mapleader=" "
 inoremap jk <ESC>
 
 autocmd FileType c      setlocal shiftwidth=4 tabstop=4 expandtab softtabstop=4 autoindent
-autocmd FileType sh     setlocal
-autocmd FileType xml    setlocal
-autocmd FileType asm    setlocal shiftwidth=8 tabstop=8 expandtab softtabstop=8
+autocmd FileType cpp    setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
+autocmd FileType sh     setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
+autocmd FileType xml    setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
+autocmd FileType asm    setlocal shiftwidth=8 tabstop=8 expandtab softtabstop=8 autoindent
 
 " YouCompleteMe
 let g:ycm_extra_conf_globlist = ['~/Code/C-C++/TLPI/*', '~/Code/KernelModules/*']
