@@ -38,6 +38,7 @@ autocmd FileType cpp    setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 
 autocmd FileType sh     setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
 autocmd FileType xml    setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
 autocmd FileType asm    setlocal shiftwidth=8 tabstop=8 expandtab softtabstop=8 autoindent
+autocmd FileType awk    setlocal shiftwidth=4 tabstop=4 expandtab softtabstop=4 autoindent
 
 " YouCompleteMe
 let g:ycm_extra_conf_globlist = ['~/Code/C-C++/TLPI/*', '~/Code/KernelModules/*']
