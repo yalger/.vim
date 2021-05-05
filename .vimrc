@@ -22,7 +22,6 @@ set backspace=indent,eol,start  " allow backspacing over indention,line breaks a
 set history=1000        " set the undo limit
 " set splitbelow          " set the split window at bottom
 set termwinsize=10*0    " set the height of the term
-set visualbell          " turn off the bell sound
 highlight clear CursorLine  " clear current cursor line underline
 highlight clear CursorLineNr " clear current cursor line underline 
 
