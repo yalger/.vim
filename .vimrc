@@ -42,6 +42,8 @@ autocmd FileType asm    setlocal shiftwidth=8 tabstop=8 expandtab softtabstop=8 
 autocmd FileType awk    setlocal shiftwidth=4 tabstop=4 expandtab softtabstop=4 autoindent
 autocmd FileType yaml   setlocal shiftwidth=4 tabstop=4 expandtab softtabstop=4 autoindent
 
+colorscheme onehalflight
+
 " YouCompleteMe
 let g:ycm_extra_conf_globlist = ['~/Code/C-C++/TLPI/*', '~/Code/KernelModules/*']
 " let g:loaded_youcompleteme = 1  " disable youcompleteme loading on startup
