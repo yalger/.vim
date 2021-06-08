@@ -39,6 +39,8 @@ autocmd FileType xml    setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 
 autocmd FileType asm    setlocal shiftwidth=8 tabstop=8 expandtab softtabstop=8 autoindent
 autocmd FileType awk    setlocal shiftwidth=4 tabstop=4 expandtab softtabstop=4 autoindent
 autocmd FileType yaml   setlocal shiftwidth=4 tabstop=4 expandtab softtabstop=4 autoindent
+autocmd FileType js     setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
+autocmd FileType html   setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
 
 hi clear CursorLine
 hi clear CursorLineNr
