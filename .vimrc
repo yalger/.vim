@@ -22,6 +22,7 @@ set backspace=indent,eol,start  " allow backspacing over indention,line breaks a
 set history=1000        " set the undo limit
 " set splitbelow          " set the split window at bottom
 set termwinsize=10*0    " set the height of the term
+set ignorecase          " use case insensitive search
 
 " Jump to the last position when reopening a file
 if has("autocmd")
