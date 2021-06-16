@@ -43,9 +43,6 @@ autocmd FileType yaml           setlocal shiftwidth=4 tabstop=4 expandtab softta
 autocmd FileType javascript     setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
 autocmd FileType html           setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
 
-hi clear CursorLine
-hi clear CursorLineNr
-
 " YouCompleteMe
 let g:ycm_extra_conf_globlist = ['~/Code/C-C++/TLPI/*', '~/Code/KernelModules/*']
 " let g:loaded_youcompleteme = 1  " disable youcompleteme loading on startup
@@ -66,6 +63,7 @@ Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 Plug 'othree/xml.vim'
 Plug 'chun-yang/auto-pairs'
+Plug 'arcticicestudio/nord-vim'
 
 " Any valid git URL is allowed
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
@@ -95,3 +93,5 @@ Plug 'ycm-core/YouCompleteMe', { 'do': 'python3 ./install.py --clangd-completer'
 
 " Initialize plugin system
 call plug#end()
+
+colorscheme nord

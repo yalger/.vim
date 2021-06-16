@@ -16,3 +16,6 @@
 [submodule "plugged/auto-pairs"]
 	path = plugged/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
+[submodule "plugged/nord-vim"]
+	path = plugged/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim.git
