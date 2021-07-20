@@ -62,7 +62,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 Plug 'othree/xml.vim'
-Plug 'chun-yang/auto-pairs'
+Plug 'jiangmiao/auto-pairs'
 Plug 'arcticicestudio/nord-vim'
 
 " Any valid git URL is allowed
