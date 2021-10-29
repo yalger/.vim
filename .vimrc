@@ -64,7 +64,6 @@ Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 Plug 'othree/xml.vim'
 Plug 'jiangmiao/auto-pairs'
-Plug 'arcticicestudio/nord-vim'
 
 " Any valid git URL is allowed
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
@@ -94,5 +93,3 @@ Plug 'ycm-core/YouCompleteMe', { 'do': 'python3 install.py --all' }
 
 " Initialize plugin system
 call plug#end()
-
-colorscheme nord
