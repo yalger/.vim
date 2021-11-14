@@ -24,11 +24,16 @@ set history=1000        " set the undo limit
 set termwinsize=10*0    " set the height of the term
 set ignorecase          " use case insensitive search
 
+" set highlight style of cursor line
+hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#1c1c1c gui=NONE
+hi CursorLineNr ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#1c1c1c gui=NONE
+
 " Jump to the last position when reopening a file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
+" Map jk to <ESC>
 let mapleader=" "
 inoremap jk <ESC>
 
