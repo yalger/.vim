@@ -79,7 +79,7 @@ Plug 'jiangmiao/auto-pairs'
 " On-demand loading
 " Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
-Plug 'ycm-core/YouCompleteMe', { 'do': 'python3 install.py --all' }
+Plug 'ycm-core/YouCompleteMe', { 'do': 'python3 install.py --clang-completer --clangd-completer --java-completer' }
 
 " Using a non-default branch
 " Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
