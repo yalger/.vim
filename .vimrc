@@ -51,10 +51,6 @@ autocmd FileType yaml           setlocal shiftwidth=4 tabstop=4 expandtab softta
 autocmd FileType javascript     setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
 autocmd FileType html           setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
 
-" YouCompleteMe
-let g:ycm_extra_conf_globlist = ['~/Code/C-C++/TLPI/*', '~/Code/KernelModules/*']
-" let g:loaded_youcompleteme = 1  " disable youcompleteme loading on startup
-
 " NerdTree config
 " autocmd vimenter * NERDTree
 
@@ -81,7 +77,7 @@ Plug 'jiangmiao/auto-pairs'
 " On-demand loading
 " Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
-Plug 'ycm-core/YouCompleteMe', { 'do': 'python3 install.py --clang-completer --clangd-completer --java-completer' }
+" Plug 'ycm-core/YouCompleteMe', { 'do': 'python3 install.py --clang-completer --clangd-completer --java-completer' }
 
 " Using a non-default branch
 " Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }

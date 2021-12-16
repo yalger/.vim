@@ -1,6 +1,3 @@
-[submodule "plugged/YouCompleteMe"]
-	path = plugged/YouCompleteMe
-	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule "plugged/vim-surround"]
 	path = plugged/vim-surround
 	url = https://github.com/tpope/vim-surround
