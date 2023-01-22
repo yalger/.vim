@@ -50,6 +50,8 @@ autocmd FileType awk            setlocal shiftwidth=4 tabstop=4 expandtab softta
 autocmd FileType yaml           setlocal shiftwidth=4 tabstop=4 expandtab softtabstop=4 autoindent
 autocmd FileType javascript     setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
 autocmd FileType html           setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
+autocmd FileType lex            setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
+autocmd FileType yacc           setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2 autoindent
 
 " NerdTree config
 " autocmd vimenter * NERDTree
