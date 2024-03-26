@@ -16,7 +16,7 @@ set encoding=utf-8      " set encoding to utf-8
 set fileencodings=ucs-bom,utf-8,gbk
 set scrolloff=5         " set the number of screen lines to keep above and below the cursor
 set wildmenu            " display command line's tab complete options as a menu
-" set background=dark     " use colors that suit a dark background
+set background=dark     " use colors that suit a dark background
 set foldmethod=manual   " code fold manually
 set backspace=indent,eol,start  " allow backspacing over indention,line breaks and insertion start
 set history=1000        " set the undo limit
